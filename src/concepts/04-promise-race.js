@@ -36,5 +36,5 @@ const fastPromise = () =>
     new Promise((resolve) => {
         setTimeout(() => {
             resolve("Fast Promise");
-        }, 3000);
+        }, 2000);
     });
